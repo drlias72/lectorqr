@@ -186,7 +186,7 @@ public class JDLector extends javax.swing.JDialog {
                 mandarDato(qrCodeResult.getText());
 
             } catch (Exception ex) {
-                //System.out.println("Error: " + ex.getMessage());;
+                System.out.println("Error: " + ex.getMessage());;
             }
         }
 
